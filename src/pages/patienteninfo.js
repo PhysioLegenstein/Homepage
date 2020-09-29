@@ -23,7 +23,6 @@ const InfoPage = () => {
               <hr></hr>
               <ul>
                 <li>gültige ärztliche Verordnung, ausgestellt von Ihrem Hausarzt bzw. Facharzt</li>
-                <li>VOR der ersten Therapieeinheit</li>
                 <li>die Verordnung sollte folgendes beinhalten: Therapieart, Anzahl, Dauer und Name des Therapeuten</li>
                 <br></br>
                 <i>z.B.: 10 x Einzelheilgymnastik &agrave; 45 min, Herrn Legenstein</i>
