@@ -28,7 +28,7 @@ const Footer = () => {
           <Col sm={6} md={4} className="footer-navigation">
             <h3 className="text-center bg-white border rounded border-primary">
               <Link to="/">
-                <Image id="footerLogo" src={logo} />
+                <Image id="footerLogo" alt="Logo" src={logo} />
               </Link>
             </h3>
             <p className="links">
@@ -62,15 +62,15 @@ const Footer = () => {
             <div>
               <span className="footer-contacts-icon" ><FontAwesomeIcon icon={faEnvelope} /></span>
               <p>
-                <Link href="mailto:physio.legenstein@gmx.at">
+                <a href="mailto:physio.legenstein@gmx.at">
                   physio.legenstein@gmx.at
-                </Link>
+                </a>
               </p>
             </div>
           </Col>
           <div className="clearfix"></div>
           <Col md={4} className="footer-about">
-            <h4>Über Physio Legenstein</h4>
+            <h4>Über die Homepage</h4>
             <p>
               Die Webseite wurde gestaltet und erstellt von <b>Michael Legenstein</b>
             </p>

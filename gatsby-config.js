@@ -1,9 +1,3 @@
-/**
- * Configure your Gatsby site with this file.
- *
- * See: https://www.gatsbyjs.org/docs/gatsby-config/
- */
-
 module.exports = {
   siteMetadata: {
     title: "Matthias Legenstein",
@@ -20,6 +14,13 @@ module.exports = {
     "gatsby-plugin-sass",
     "gatsby-plugin-fontawesome-css",
     "gatsby-plugin-offline",
+    {
+      resolve: `gatsby-plugin-canonical-urls`,
+      options: {
+        siteUrl: `https://physio-legenstein.at`,
+        stripQueryString: true,
+      },
+    },
     {
       resolve: "gatsby-source-filesystem",
       options: {

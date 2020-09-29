@@ -73,14 +73,14 @@ const AboutPage = () => {
           </p>
         </div>
       </Container>
-      <Container className="text-center site-section">
+      <Container className="border rounded shadow text-center site-section">
           <h1>Fortbildungen</h1>
       </Container>
       <Container>
           <CardColumns>
               {data.allMarkdownRemark.edges.map((edge) => {
                   return (
-                      <Card key={edge.node.frontmatter.title}>
+                      <Card key={edge.node.frontmatter.title} className="shadow">
                           <Card.Img as={Img} variant="top" fluid={edge.node.frontmatter.image.childImageSharp.fluid} />
                           <Card.Body>
                               <Card.Title><span>{edge.node.frontmatter.title}</span></Card.Title>

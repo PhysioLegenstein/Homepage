@@ -9,11 +9,13 @@ const NotFound = () => {
   return (
     <Layout>
       <Seo title="404" />
-      <Container>
-        <h1>Page not found</h1>
-        <p>
-          <Link to="/">Head home</Link>
-        </p>
+      <Container className="border rounded shadow site-section text-center">
+        <h1 className="display-1">Sorry!</h1>
+        <h2 className="display-5">Diese Seite konnte nicht gefunden werden!</h2>
+        <hr />
+        <h3>
+          <Link to="/">Zurück zur Startseite</Link>
+        </h3>
       </Container>
     </Layout>
   )

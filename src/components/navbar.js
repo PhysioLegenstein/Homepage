@@ -13,7 +13,7 @@ const NaviagtionMenu = () => {
       <Container>
         <Navbar.Brand as={Link} to="/">
           <img
-            alt=""
+            alt="Logo"
             src={logo}
             height="50"
             className="d-inline-block align-top mr-3"

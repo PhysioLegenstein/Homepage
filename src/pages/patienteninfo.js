@@ -18,7 +18,7 @@ const InfoPage = () => {
       <Container>
         <Row>
           <Col lg={4} md={12} className="mb-3">
-            <div className="info-box shadow">
+            <div className="info-box shadow" id="info-box-one">
               <h4><b>1.</b> Die ärztliche Verordnung...</h4>
               <hr></hr>
               <ul>
@@ -33,7 +33,7 @@ const InfoPage = () => {
             
           </Col>
           <Col lg={4} md={12} className="mb-3">
-            <div className="info-box shadow">
+            <div className="info-box shadow" id="info-box-two">
               <h4><b>2.</b> Zur Therapie...</h4>
               <hr></hr>
               Mitzunehmen:
@@ -47,7 +47,7 @@ const InfoPage = () => {
             </div>
           </Col>
           <Col lg={4} md={12} className="mb-3">
-            <div className="info-box shadow">
+            <div className="info-box shadow" id="info-box-three">
               <h4><b>3.</b> Rückerstattung...</h4>
               <hr></hr>
               Die Krankenkasse benötigt:

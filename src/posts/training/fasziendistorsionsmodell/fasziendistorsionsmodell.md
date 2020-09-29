@@ -1,7 +1,7 @@
 ---
 title: "Fasziendistorsionmodell nach Typaldos (FDM)"
 description: "Der moderne Weg der Schmerzbehandlung"
-image: "./pic01.jpg"
+image: "./faszien4.jpg"
 ---
 
 Die Faszientherapie hat in den letzten Jahren bei der Behandlung von funktionellen Bewegungseinschränkungen an Bedeutung gewonnen. Das Modell nach Typaldos bietet neue Wege in der Befundung und Behandlung von Schmerzpatienten. Patientenorientiertes Handeln und spektakuläre Ergebnisse machen dieses Konzept einzigartig.
