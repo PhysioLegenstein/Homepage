@@ -1,0 +1,84 @@
+@import "~bootstrap/scss/bootstrap";
+@import "variables";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 70px;
+    color: black;
+    background-color: blanchedalmond;
+    word-wrap: break-word;
+}
+
+.site-section {
+    background-color: rgba(255,255,255,0.75);
+    margin: 10px auto;
+    padding: 10px 10%;
+    padding-bottom: 30px;
+    text-align: left;
+    outline: 1px dashed #98abb9;
+    outline-offset: -7px;
+}
+
+.site-section h1 {
+    text-align: center;
+    font-weight: normal;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+.site-section p {
+    max-width: 800px;
+    font-size: 20px;
+    margin: 0 auto;
+}
+
+#promo {
+    text-align: center;
+    padding: 40px;
+    background: url("./../images/physio4.jpg") no-repeat;
+    background-size: cover;
+}
+
+@media (max-width: 991px) {
+    #promo {
+        padding: 20px;
+    }
+}
+
+#promo .jumbotron {
+    border-radius: 20px;
+    padding: 40px;
+    background-color: rgba(255,255,255,0.75);
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+@media (max-width: 991px) {
+    #promo .jumbotron {
+        padding: 20px;
+    }
+}
+
+#logo {
+    max-height: 50px;
+}
+
+.card-columns {
+    @include media-breakpoint-only(lg) {
+        column-count: 3;
+    }
+    @include media-breakpoint-only(md) {
+        column-count: 2;
+    }
+    @include media-breakpoint-only(sm) {
+        column-count: 1;
+    }
+}
+
+@import "navbar";
+@import "footer";
+@import "about";
+@import "contact";
+@import "service";
+@import "training";
+@import "info";
