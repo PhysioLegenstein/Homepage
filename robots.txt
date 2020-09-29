@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://physio-legenstein.at/sitemap.xml
+Host: https://physio-legenstein.at
