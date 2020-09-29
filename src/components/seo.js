@@ -34,6 +34,7 @@ const SEO = ({ title, description, image }) => {
             )}
             {seo.image && <meta property="og:image" content={seo.image} />}
             <html lang="de" />
+            <meta name="keywords" content="Physiotherapie, Baden, Legenstein, Matthias Legenstein, Physiotherapeut, Hausbesuch"></meta>
         </Helmet>
     )
 }

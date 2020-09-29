@@ -52,7 +52,7 @@ const IndexPage = () => {
         <Carousel>
           {data.allFile.edges.map(pic =>
             <Carousel.Item key={pic.node.childImageSharp.fluid.src}>
-              <Img fluid={pic.node.childImageSharp.fluid} />
+              <Img fluid={pic.node.childImageSharp.fluid} alt="Physiotherapie" />
             </Carousel.Item>
           )}
         </Carousel>

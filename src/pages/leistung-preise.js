@@ -84,35 +84,35 @@ const ServicePage = () => {
             <tbody>
               <tr>
                 <td>Physiotherapie 30 min</td>
-                <td>16,74,-</td>
-                <td>14,86,-</td>
-                <td>20,14,-</td>
-                <td>22,99,-</td>
-                <td>20,43,-</td>
+                <td>16,74</td>
+                <td>14,86</td>
+                <td>20,14</td>
+                <td>22,99</td>
+                <td>20,43</td>
               </tr>
               <tr>
                 <td>Physiotherapie 45 min</td>
-                <td>25,07,-</td>
-                <td>22,28,-</td>
-                <td>30,21,-</td>
-                <td>33,14,-</td>
-                <td>30,64,-</td>
+                <td>25,07</td>
+                <td>22,28</td>
+                <td>30,21</td>
+                <td>33,14</td>
+                <td>30,64</td>
               </tr>
               <tr>
                 <td>Hausbesuch</td>
-                <td>17,59,-</td>
-                <td>20,04,-</td>
-                <td>20,14,-</td>
-                <td>22,88,-</td>
-                <td>17,59,-</td>
+                <td>17,59</td>
+                <td>20,04</td>
+                <td>20,14</td>
+                <td>22,88</td>
+                <td>17,59</td>
               </tr>
               <tr>
                 <td>Teilmassage 15 min</td>
                 <td></td>
-                <td>4,42,-</td>
-                <td>10,67,-</td>
-                <td>7,31,-</td>
-                <td>6,08,-</td>
+                <td>4,42</td>
+                <td>10,67</td>
+                <td>7,31</td>
+                <td>6,08</td>
               </tr>
             </tbody>
           </Table>
@@ -120,8 +120,8 @@ const ServicePage = () => {
         <div>
           <p>
             WICHTIG: bitte die ärztlich verordneten Therapien VOR bzw.
-            SPÄTESTENS nach der 1. Therapieeinheit bewilligen lassen. Für
-            Rückfragen stehe ich Ihnen gerne zur Verfügung.
+            SPÄTESTENS nach der ersten Therapieeinheit bewilligen lassen. Für
+            Rückfragen stehe ich gerne zur Verfügung.
           </p>
         </div>
       </Container>

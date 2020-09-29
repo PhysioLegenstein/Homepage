@@ -1,5 +1,5 @@
 ---
-title: "Fasziendistorsionmodell nach Typaldos (FDM)"
+title: "Fasziendistorsionsmodell nach Typaldos (FDM)"
 description: "Der moderne Weg der Schmerzbehandlung"
 image: "./faszien4.jpg"
 ---

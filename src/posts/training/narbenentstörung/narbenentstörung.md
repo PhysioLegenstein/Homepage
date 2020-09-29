@@ -19,7 +19,7 @@ Schmerzen, eingeschränkte Beweglichkeit, Gefühlsstörungen, Wulstbildungen, R�
 
 ### Kann eine alte Narbe noch behandelt werden?
 
-Ja! Eine Narbenbehandlung ist eingeschränkt bis zu 35 Jahren nach der Enstehung noch möglich.  Von therapeutischer Seite empfehle ich jedoch eine möglichst zeitige Behandlung um etwaige Folgeerkrankungen am Bewegungsapparat zu vermeiden. 
+Ja! Eine Narbenbehandlung ist eingeschränkt bis zu 35 Jahren nach der Enstehung noch möglich.  Von therapeutischer Seite empfehle ich jedoch eine möglichst frühzeitige Behandlung um etwaige Folgeerkrankungen am Bewegungsapparat zu vermeiden. 
 
 ### Wieviele Therapiesitzungen werden benötigt?
 

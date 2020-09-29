@@ -93,7 +93,7 @@ export default class ContactPage extends React.Component {
                     finden sich zahlreiche Parkplätze innerhalb der Kurzparkzone
                     (zahlungspflichtig 8:00 – 18:00). Bitte beachten Sie bei Ihrer
                     Zeitplanung, dass es ab 17:00 zu einem verstärkten
-                    Verkehrsaufkommen und reduzierter Parkmöglichkeiten kommen
+                    Verkehrsaufkommen und reduzierten Parkmöglichkeiten kommen
                     kann!
                   </li>
                 </ul>
@@ -104,15 +104,13 @@ export default class ContactPage extends React.Component {
               <div className="contact-section">
                 <ul>
                   <li>
-                    In der <span>Marchetstraße 7</span>bei den Badener Pfadfindern
-                    &amp; Pfadfinderinnen haben Sie die Möglichkeit des
-                    kostenfreien Parkens. Gehweg: 130m / 2 Minuten
+                    In der <span>Marchetstraße 7</span> bei den Badener Pfadfindern
+                    &amp; Pfadfinderinnen haben Sie die Möglichkeit kostenfrei zu parken. Gehweg: 130m / 2 Minuten
                   </li>
                   <li>
                     In der <span>Gutenbrunnerstraße 2</span>, zwischen Römertherme
-                    und grünem Markt, finden Sie das nahe gelegene Parkdeck der
-                    Römertherme. In der obersten Etage stehen Sie für 3 Stunden
-                    gratis. &nbsp;Gehweg: 290-350m / 4-5 Minuten
+                    und grünem Markt, finden Sie das nahe gelegene Parkhaus der
+                    Römertherme. Gehweg: 290-350m / 4-5 Minuten
                   </li>
                 </ul>
               </div>

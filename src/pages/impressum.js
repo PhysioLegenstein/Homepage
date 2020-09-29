@@ -13,7 +13,7 @@ const ImpressumPage = () => {
                 <h1>Impressum</h1>
                 <p>Informationspflicht laut §5 E-Commerce Gesetz, §14 Unternehmensgesetzbuch, §63 Gewerbeordnung und Offenlegungspflicht laut §25 Mediengesetz.</p>
                 <br />
-                <p>Matthias Legenstein</p>
+                <p>Matthias Legenstein, BSc</p>
                 <br />
                 <p>Erzherzog Rainer-Ring 13, <br />2500 Baden, <br />Österreich</p>
                 <br />

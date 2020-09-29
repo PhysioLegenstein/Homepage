@@ -24,9 +24,9 @@ const InfoPage = () => {
               <ul>
                 <li>gültige ärztliche Verordnung, ausgestellt von Ihrem Hausarzt bzw. Facharzt</li>
                 <li>VOR der ersten Therapieeinheit</li>
-                <li>die Verordnung sollte folgendes beinhalten: Therapieart, Anzahl, Dauer und Therapeutenname</li>
+                <li>die Verordnung sollte folgendes beinhalten: Therapieart, Anzahl, Dauer und Name des Therapeuten</li>
                 <br></br>
-                <i>z.B.: 10 x Einzelheilgymnastik a 45min, Herrn Legenstein</i>
+                <i>z.B.: 10 x Einzelheilgymnastik &agrave; 45 min, Herrn Legenstein</i>
               </ul>
               <i>Empfehlung: Bewilligen Sie Ihre ärztliche Verordnung vorab bei der Krankenkasse</i>
             </div>
@@ -39,11 +39,11 @@ const InfoPage = () => {
               Mitzunehmen:
               <ul>
                 <li>ärztliche Verordnung</li>
-                <li>wenn vorhanden aktuelle medizinisch relevante Unterlagen (Befunde, Röntgen, Entlassungsberichte, ...)</li>
+                <li>wenn vorhanden: aktuelle medizinisch relevante Unterlagen (Befunde, Röntgen, Entlassungsberichte, ...)</li>
                 <li>bequeme Kleidung</li>
                 <li>großes Handtuch</li>
               </ul>
-              <i>WICHTIG: Aufgrund der aktuellen Situation ist das Betreten der Praxis nur mit Mund-Nasenschutz erlaubt</i>
+              <b><i>WICHTIG: Aufgrund der aktuellen Situation ist das Betreten der Praxis nur mit Mund-Nasenschutz erlaubt!</i></b>
             </div>
           </Col>
           <Col lg={4} md={12} className="mb-3">
@@ -65,16 +65,16 @@ const InfoPage = () => {
           <Accordion defaultActiveKey="0">
             <Card>
               <Accordion.Toggle as={Card.Header} eventKey="0">
-                Welche Sicherheitsmaßnahmen werden aufgrund des Coronaviruses durchgeführt?
+                Welche Sicherheitsmaßnahmen werden aufgrund des Coronavirus durchgeführt?
               </Accordion.Toggle>
               <Accordion.Collapse eventKey="0">
                 <Card.Body>
                   <ol>
-                    <li>Bei vorliegenden Symptomen die mit dem Coronavirus in Verbindung stehen bitte nicht die Praxis aufsuchen - wir werden telefonisch einen Ersatztermin organisieren.</li>
+                    <li>Bei vorliegenden Symptomen, die mit dem Coronavirus in Verbindung stehen, bitte nicht die Praxis aufsuchen - wir werden telefonisch einen Ersatztermin organisieren.</li>
                     <li>Hatten Sie Kontakt mit einer kürzlich positiv getesteten Person - auch hier bitte um telefonische Rücksprache.</li>
-                    <li>In den Räumlichkeiten der Praxis ist das Tragen eines Nasen-Mundschutzes oder eines Face-Shields erforderlich.</li>
+                    <li>In den Räumlichkeiten der Praxis ist das Tragen eines Mund-Nasenschutzes erforderlich.</li>
                     <li>Zu Beginn der Therapie bitten wir um eine gründliche Handdesinfektion.</li>
-                    <li>Um das Überschneiden von Patiententerminen zu vermeiden um so den Kontakt mit anderen Patienten gering zu halten - bitte um ein pünktliches Erscheinen.</li>
+                    <li>Um das Überschneiden von Patiententerminen zu vermeiden und so den Kontakt mit anderen Patienten gering zu halten - bitte um pünktliches Erscheinen.</li>
                   </ol>
                 </Card.Body>
               </Accordion.Collapse>
@@ -85,7 +85,7 @@ const InfoPage = () => {
               </Accordion.Toggle>
               <Accordion.Collapse eventKey="1">
                 <Card.Body>
-                  Für die erste Therapieeinheit werden alle <b>relevanten Befunde</b> und die <b>ärztliche Zuweisung</b> benötigt. Ansonsten sollten Sie <b>bequeme Kleidung</b> und ein frisches <b>Handtuch</b> mitbringen.
+                  Für die erste Therapieeinheit werden alle <b>relevanten Befunde</b> und die <b>ärztliche Zuweisung</b> benötigt. Weiters sollten Sie <b>bequeme Kleidung</b> und ein frisches <b>Handtuch</b> mitbringen.
                 </Card.Body>
               </Accordion.Collapse>
             </Card>
@@ -95,7 +95,7 @@ const InfoPage = () => {
               </Accordion.Toggle>
               <Accordion.Collapse eventKey="2">
                 <Card.Body>
-                  Beim ersten Termin wird zunächst ein <b>genauer Befund</b> aufgenommen (Vorgeschichte, Problemfindung, Zielsetzung, …). Nach Durchführung verschiedener Tests und Untersuchung des Problembereichs wird eine physiotherapeutische Arbeitsdiagnose gestellt. Gemeinsam mit Ihnen wird dann ein <b>Behandlungsplan</b> erstellt um <b>Ihre definierten Ziele bestmöglich zu erreichen</b>.
+                  Beim ersten Termin wird zunächst ein <b>genauer Befund</b> erstellt (Vorgeschichte, Problemfindung, Zielsetzung, …). Nach Durchführung verschiedener Tests und Untersuchung des Problembereichs wird eine physiotherapeutische Arbeitsdiagnose gestellt. Gemeinsam mit Ihnen wird dann ein <b>Behandlungsplan</b> entwickelt um <b>Ihre definierten Ziele bestmöglich zu erreichen</b>.
                 </Card.Body>
               </Accordion.Collapse>
             </Card>
@@ -105,7 +105,7 @@ const InfoPage = () => {
               </Accordion.Toggle>
               <Accordion.Collapse eventKey="3">
                 <Card.Body>
-                  Als Wahltherapeut habe ich keinen direkten Vertrag mit der Krankenkasse. Sie erhalten nach einer oder mehreren Behandlungsterminen eine Rechnung. Nach der Begleichung schicken Sie die Rechnung samt Zahlungsbestätigung zu Ihrer Krankenkasse. Sie bekommen dann gemäß den Tarifen Ihrer Versicherung einen Teilbetrag refundiert.
+                  Als Wahltherapeut habe ich keinen direkten Vertrag mit der Krankenkasse. Sie erhalten nach einem oder mehreren Behandlungsterminen eine Rechnung. Nach der Begleichung schicken Sie die Rechnung samt Zahlungsbestätigung an Ihre Krankenkasse. Sie bekommen dann, gemäß den Tarifen Ihrer Versicherung, einen Teilbetrag refundiert.
                 </Card.Body>
               </Accordion.Collapse>
             </Card>
@@ -115,7 +115,7 @@ const InfoPage = () => {
               </Accordion.Toggle>
               <Accordion.Collapse eventKey="4">
                 <Card.Body>
-                  Terminabsagen bitte spätestens 24h im Vorhinein. Absagen ausschließlich telefonisch per Anruf, SMS oder Mailbox. Bitte haben Sie Verständnis, dass bei zu spät abgesagten Terminen oder dem nicht erscheinen zum Termin 50% der Honorarnote ausgestellt werden. Die Krankenkassa übernimmt hierbei keine Kosten.
+                  Terminabsagen bitte spätestens 24h im Vorhinein. Absagen ausschließlich telefonisch per Anruf, SMS oder Mailbox. Bitte haben Sie Verständnis, dass bei zu spät abgesagten Terminen oder dem Nichterscheinen zum Termin 50% der Honorarnote ausgestellt werden. Die Krankenkassa übernimmt hierbei keine Kosten.
                 </Card.Body>
               </Accordion.Collapse>
             </Card>

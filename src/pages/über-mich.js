@@ -53,6 +53,7 @@ const AboutPage = () => {
               className="rounded img-fluid shadow"
               id="about-pic"
               src={pic01}
+              alt="Matthias Legenstein"
             />
           </Col>
           <Col md={4} className="text-center my-auto pt-3">
@@ -65,11 +66,7 @@ const AboutPage = () => {
           <p>
             Die Faszination an der Bewegung, wie auch jahrelanges Arbeiten als
             freiwilliger Sanitäter beim Roten Kreuz haben mich auf den Beruf des
-            Physiotherapeuten aufmerksam gemacht. Hier faszinieren mich die
-            Möglichkeiten verschiedenster Therapieformen, Patienten in der
-            Herstellung ihrer Funktionsfähigkeit wie auch dem Widererlangen von
-            mehr Lebensqualität zu begleiten. (nicht deutsch – wird noch
-            geändert)
+            Physiotherapeuten aufmerksam gemacht. Mich begeistern die vielfältigen Therapiemöglichkeiten, die den Patienten dauerhaft mehr Lebensqualität ermöglichen sollen.
           </p>
         </div>
       </Container>
@@ -81,7 +78,7 @@ const AboutPage = () => {
               {data.allMarkdownRemark.edges.map((edge) => {
                   return (
                       <Card key={edge.node.frontmatter.title} className="shadow">
-                          <Card.Img as={Img} variant="top" fluid={edge.node.frontmatter.image.childImageSharp.fluid} />
+                          <Card.Img as={Img} variant="top" fluid={edge.node.frontmatter.image.childImageSharp.fluid} alt={edge.node.frontmatter.title} />
                           <Card.Body>
                               <Card.Title><span>{edge.node.frontmatter.title}</span></Card.Title>
                               <Card.Text><span>{edge.node.frontmatter.description}</span></Card.Text>
@@ -134,8 +131,8 @@ const AboutPage = () => {
               <tr>
                 <td>2015 bis 2018</td>
                 <td>
-                  Beschäftigt als Physiotherapeut im rehabilitativeb Bereich des
-                  Gesundheits und Kurhotels Baden
+                  Beschäftigt als Physiotherapeut im rehabilitativen Bereich des
+                  Gesundheits- und Kurhotels Badener Hof
                 </td>
               </tr>
               <tr>
