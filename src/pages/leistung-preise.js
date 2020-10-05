@@ -27,7 +27,7 @@ const ServicePage = () => {
               </tr>
               <tr>
                 <td>45 min</td>
-                <td>60€</td>
+                <td>63€</td>
               </tr>
               <tr>
                 <td>60 min</td>

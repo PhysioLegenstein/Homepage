@@ -66,7 +66,7 @@ const AboutPage = () => {
           <p>
             Die Faszination an der Bewegung, wie auch jahrelanges Arbeiten als
             freiwilliger Sanitäter beim Roten Kreuz haben mich auf den Beruf des
-            Physiotherapeuten aufmerksam gemacht. Mich begeistern die vielfältigen Therapiemöglichkeiten, die den Patienten dauerhaft mehr Lebensqualität ermöglichen sollen.
+            Physiotherapeuten aufmerksam gemacht. Mich begeistern die vielfältigen Therapiemöglichkeiten, die den Patienten dauerhaft mehr Lebensqualität ermöglichen können.
           </p>
         </div>
       </Container>
@@ -147,6 +147,12 @@ const AboutPage = () => {
                 <td>
                   Selbständige Tätigkeit als Physiotherapeut in der Physiopraxis
                   Health &amp; Sport Kottingbrunn
+                </td>
+              </tr>
+              <tr>
+                <td>Seit 2020</td>
+                <td>
+                  Selbständige Tätigkeit als Physiotherapeut bei  Physiotherapie Legenstein in Baden
                 </td>
               </tr>
             </tbody>

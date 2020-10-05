@@ -1,6 +1,6 @@
 ---
 title: "Vitality Flossing"
-description: "Das ist eine kurze Beschreibung..."
+description: "Mobilisation mit dem elastischen Band"
 image: "./vitality1.jpg"
 ---
 

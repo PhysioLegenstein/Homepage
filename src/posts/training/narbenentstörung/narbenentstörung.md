@@ -1,6 +1,6 @@
 ---
 title: "Narbenentstörung"
-description: "Das ist eine kurze Beschreibung..."
+description: "Störfelder nachhaltig beseitigen"
 image: "./narbe1.JPG"
 ---
 

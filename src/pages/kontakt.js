@@ -89,12 +89,7 @@ export default class ContactPage extends React.Component {
               <div className="contact-section">
                 <ul className="list-unstyled">
                   <li>
-                    Direkt vor der Praxis und entlang des Erzherzog Rainer Rings
-                    finden sich zahlreiche Parkplätze innerhalb der Kurzparkzone
-                    (zahlungspflichtig 8:00 – 18:00). Bitte beachten Sie bei Ihrer
-                    Zeitplanung, dass es ab 17:00 zu einem verstärkten
-                    Verkehrsaufkommen und reduzierten Parkmöglichkeiten kommen
-                    kann!
+                    Direkt vor der Praxis finden sich zahlreiche Parkplätze innerhalb der Kurzparkzone (zahlungspflichtig 8:00 – 18:00). In derGutenbrunnnerstraße 2, zwischen Römertherme und Grünem Markt finden Sie das nahe gelegene Parkhaus der Römertherme. Gehweg 290-250m / 4-5 Minuten
                   </li>
                 </ul>
               </div>
@@ -106,11 +101,6 @@ export default class ContactPage extends React.Component {
                   <li>
                     In der <span>Marchetstraße 7</span> bei den Badener Pfadfindern
                     &amp; Pfadfinderinnen haben Sie die Möglichkeit kostenfrei zu parken. Gehweg: 130m / 2 Minuten
-                  </li>
-                  <li>
-                    In der <span>Gutenbrunnerstraße 2</span>, zwischen Römertherme
-                    und grünem Markt, finden Sie das nahe gelegene Parkhaus der
-                    Römertherme. Gehweg: 290-350m / 4-5 Minuten
                   </li>
                 </ul>
               </div>
