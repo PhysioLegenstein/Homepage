@@ -89,7 +89,7 @@ export default class ContactPage extends React.Component {
               <div className="contact-section">
                 <ul className="list-unstyled">
                   <li>
-                    Direkt vor der Praxis finden sich zahlreiche Parkplätze innerhalb der Kurzparkzone (zahlungspflichtig 8:00 – 18:00). In derGutenbrunnnerstraße 2, zwischen Römertherme und Grünem Markt finden Sie das nahe gelegene Parkhaus der Römertherme. Gehweg 290-250m / 4-5 Minuten
+                    Direkt vor der Praxis finden sich zahlreiche Parkplätze innerhalb der Kurzparkzone (zahlungspflichtig 8:00 – 18:00). In der Gutenbrunnnerstraße 2, zwischen Römertherme und Grünem Markt finden Sie das nahe gelegene Parkhaus der Römertherme. Gehweg 290-250m / 4-5 Minuten
                   </li>
                 </ul>
               </div>

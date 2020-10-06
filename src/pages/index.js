@@ -6,7 +6,6 @@ import Jumbotron from "react-bootstrap/Jumbotron"
 import Container from "react-bootstrap/Container"
 import Carousel from 'react-bootstrap/Carousel'
 import Button from 'react-bootstrap/Button'
-import Alert from 'react-bootstrap/Alert'
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
@@ -49,11 +48,6 @@ const IndexPage = () => {
           </Link>
         </Jumbotron>
       </BackgroundImage>
-      <Container>
-        <Alert variant="primary" className="my-3 text-center">
-          <Alert.Heading>Hausbesuche möglich!</Alert.Heading>
-        </Alert>
-      </Container>
       <Container className="bg-white p-1 my-2 rounded shadow">
         <Carousel>
           {data.allFile.edges.map(pic =>
