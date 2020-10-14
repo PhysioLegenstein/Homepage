@@ -54,7 +54,7 @@ export default class ContactPage extends React.Component {
               </div>
               <div className="text-center contact-section">
                 <span className="contact-icons"><FontAwesomeIcon icon={faPhone} /></span>
-                <span>+43 664 89 89 549</span>
+                <span>0677 / 630 964 88</span>
               </div>
               <div className="text-center contact-section">
                 <span className="contact-icons"><FontAwesomeIcon icon={faEnvelope} /></span>

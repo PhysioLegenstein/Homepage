@@ -3,7 +3,7 @@ module.exports = {
     title: "Matthias Legenstein",
     titleTemplate: "%s | Matthias Legenstein",
     description: "Mein Name ist Matthias Legenstein und als Physiotherapeut ist mir Ihr Wohlergehen besonders wichtig. Mehr Informationen finden Sie hier auf meiner Homepage!",
-    siteUrl: "https://physio-legenstein.at",
+    siteUrl: "https://www.physio-legenstein.at",
     image: "/logo.png",
     author: "Michael Legenstein",
   },
@@ -17,7 +17,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-canonical-urls`,
       options: {
-        siteUrl: `https://physio-legenstein.at`,
+        siteUrl: `https://wwww.physio-legenstein.at`,
         stripQueryString: true,
       },
     },
