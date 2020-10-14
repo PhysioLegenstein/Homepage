@@ -49,7 +49,6 @@ const AboutPage = () => {
         <Row>
           <Col md={8} className="text-center">
             <Image
-              as={Img}
               className="rounded img-fluid shadow"
               id="about-pic"
               src={pic01}

@@ -36,6 +36,7 @@ const SEO = ({ title, description, image }) => {
             <html lang="de" />
             <meta name="keywords" content="Physiotherapie, Baden, Legenstein, Matthias Legenstein, Physiotherapeut, Hausbesuch"></meta>
             <meta name="google-site-verification" content="dGVvh3R7knI1VNDgwUs8SB50K0oLIWaoRGBXZ3rn8Ws" />
+            <link rel="shortcut icon" href="/favicon.ico"></link>
         </Helmet>
     )
 }
