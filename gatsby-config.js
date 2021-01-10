@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: "Matthias Legenstein",
     titleTemplate: "%s | Matthias Legenstein",
-    description: "Mein Name ist Matthias Legenstein und als Physiotherapeut ist mir Ihr Wohlergehen besonders wichtig. Mehr Informationen finden Sie hier auf meiner Homepage!",
+    description: "Matthias Legenstein BSc. | Physiotherapie in Baden | Klassische Physiotherapie, Faszientherapie, Manualtherapie | Hausbesuche auf Anfrage",
     siteUrl: "https://www.physio-legenstein.at",
     image: "/logo.png",
     author: "Michael Legenstein",

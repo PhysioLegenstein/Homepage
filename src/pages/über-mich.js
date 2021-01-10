@@ -13,7 +13,7 @@ import Button from "react-bootstrap/Button"
 import Seo from "../components/seo"
 import Layout from "../components/layout"
 
-import pic01 from "./../Images/matthias.jpg"
+import pic01 from "./../Images/Matthias2.jpg"
 
 const AboutPage = () => {
   const data = useStaticQuery(graphql`
@@ -47,7 +47,7 @@ const AboutPage = () => {
       <Container className="border rounded shadow site-section">
         <h1>Über Mich</h1>
         <Row>
-          <Col md={8} className="text-center">
+          <Col md={6} className="text-center">
             <Image
               className="rounded img-fluid shadow"
               id="about-pic"
@@ -55,17 +55,17 @@ const AboutPage = () => {
               alt="Matthias Legenstein"
             />
           </Col>
-          <Col md={4} className="text-center my-auto pt-3">
+          <Col md={6} className="text-center my-auto pt-3">
             <p>
-              <span className="about-motto">„Behandle jeden Patienten – wie du auch selbst behandelt werden möchtest“</span>
+              Die Faszination an der Bewegung, wie auch jahrelanges Arbeiten als
+              freiwilliger Sanitäter beim Roten Kreuz haben mich auf den Beruf des
+              Physiotherapeuten aufmerksam gemacht. Mich begeistern die vielfältigen Therapiemöglichkeiten, die den Patienten dauerhaft mehr Lebensqualität ermöglichen können.
             </p>
           </Col>
         </Row>
-        <div className="about-section">
+        <div className="about-section text-center">
           <p>
-            Die Faszination an der Bewegung, wie auch jahrelanges Arbeiten als
-            freiwilliger Sanitäter beim Roten Kreuz haben mich auf den Beruf des
-            Physiotherapeuten aufmerksam gemacht. Mich begeistern die vielfältigen Therapiemöglichkeiten, die den Patienten dauerhaft mehr Lebensqualität ermöglichen können.
+            <span className="about-motto">„Behandle jeden Patienten – wie du auch selbst behandelt werden möchtest“</span>
           </p>
         </div>
       </Container>
